@@ -8,22 +8,11 @@ const express = require("express"),
   hbs = require('hbs'),
   app = express();
 
-/*
-app.engine( 'hbs', hbs( { 
-  extname: 'hbs', 
-  defaultLayout: 'main', 
-  layoutsDir: __dirname + '/views/layouts/',
-  partialsDir: __dirname + '/views/partials/'
-} ) );
 
-*/
-
-
+// HANDLEBARS 
 hbs.registerPartials(__dirname + '/views/partials');
 
-//view engine setup
-app.set("views", __dirname + '/views');
-
+app.set("views", __dirname + '/views'); //view engine setup
 app.set("view engine", "hbs");
 
 //uncomment after placing your favicon in /public

@@ -7,11 +7,16 @@ let mainWindow;
 // FOR DEBUGGING ELECTON
 const isDebug = false;
 
+// Get Main Screen Dimensions
+//let screenElectron = electron.screen;
+//let mainScreen = screenElectron.getPrimaryDisplay();
+//let dimensions = mainScreen.size;
+
 function createWindow() {
   mainWindow = new BrowserWindow({
     autoHideMenuBar: true,
-    width: 640,
-    height: 480
+    width: 1024,
+    height: 840
   });
   mainWindow.loadURL(`file://${__dirname}/index.html`);
   
