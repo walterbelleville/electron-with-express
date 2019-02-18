@@ -1,0 +1,26 @@
+{
+  "name": "electron-with-express",
+  "description": "",
+  "version": "0.11.0",
+  "main": "main.js",
+  "authors": [
+    ""
+  ],
+  "license": "",
+  "private": true,
+  "scripts": {
+    "start": ".\\node.exe start-electron.js"
+  },
+  "dependencies": {
+    "electron": "^3.0.13",
+    "electron-log": "3.0.1",
+    "jquery": "^3.3.1",
+    "keymaster": "^1.6.2",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0",
+    "strip": "^3.0.0"
+  },
+  "devDependencies": {
+    "devtron": "^1.4.0"
+  }
+}
